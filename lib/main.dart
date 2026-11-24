@@ -22,6 +22,9 @@ class RangerArchiveApp extends StatelessWidget {
           seedColor: const Color(0xFFEF4444),
           brightness: Brightness.dark,
         ),
+        popupMenuTheme: const PopupMenuThemeData(
+          color: Color(0xFF171F35),
+        ),
       ),
       home: const HomePage(),
     );
